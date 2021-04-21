@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML FORMS</title>
+	<link rel="stylesheet" type="text/css" href="dynamic.css">
+</head>
+<body>
+<form action="https://www.gmail.com" method="POST">
+	<label>First Name :</label>
+	<input type="text" name="First Name" maxlength="30" required >
+	<br>
+	<label>Last Name :</label>
+	<input type="text" name="Last Name" size="5" required >
+	<br>
+	<label>Profile picture</label>
+	<input type="file" name="Profile picture">
+	<br>
+	<label>Age:</label>
+	<input type="number" name="Age" min="25" max="80" >
+	<br>
+	<label>Gender:</label>
+	<br>
+<input type="Radio" name="Gender" value="Male"><label>Male</label>
+<br>
+<input type="Radio" name="Gender" value="Female"><label>Female</label>
+<br>
+<input type="Radio" name="Gender" value="Other"><label>Others</label>
+<br>
+<label>Preffered Courses</label>
+<br>
+<input type="checkbox" name="Courses" value="Java"><label>Java</label>
+<br>
+<input type="checkbox" name="Courses" value="Python"><label>Python</label>
+<br>
+<input type="checkbox" name="Courses" value="C-programming"><label>C-programming</label>
+<br>
+<input type="checkbox" name="Courses" value="Node j.s"><label>Node j.s</label>
+<br>
+<input type="checkbox" name="Courses" value="Ruby"><label>Ruby</label>
+<br>
+<input type="checkbox" name="Courses" value="Php"><label>Php</label>
+<br>
+		<label>Email :</label>
+	<input type="email" name="Email" >
+	<br>
+		<label>Address :</label>
+	<input type="text" name="Address">
+	<br>
+	<label>Academic Qualification</label>
+	<select name="Academic">
+		<option value="slc">S.L.C</option>
+		<option value="+2">+2</option>
+		<option value="Bachelors">Bachelors Graduate</option>
+		<option value="Masters">Masters</option>
+	</select>
+	<br>
+	<label>Date Of Birth :</label>
+	<input type="date" name="dob">
+	<br>
+	<label>Favourite Colour:</label>
+	<input type="color" name="color">
+	<br>
+	<label>Password :</label>
+	<input type="password" name="password">
+	<br>
+	<label>Country :</label>
+	<input type="text" name="Country" readonly value="Nepal" > 
+	<br>
+	<input type="button" name="button" value="button" onclick="window.alert('What is your name')" disabled>
+	<br>
+	<input type="submit" name="Submit" >
+	<br>
+	<button>submit</button>
+</body>
+</html>

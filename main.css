@@ -1,0 +1,14 @@
+h1{
+	background-color: grey;
+	color: white;
+	font-size: 55px;
+}
+p{
+	background-color: red;
+	font-family: fantasy;
+	border: 20px groove green;
+	padding:20px;
+	text-align: justify;
+	margin:50px;
+	border: 20px solid black;
+}
